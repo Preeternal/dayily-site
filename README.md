@@ -1,2 +1,2 @@
-# -dayily-site
+# dayily-site
 Dayily website
