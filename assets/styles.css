@@ -261,6 +261,13 @@ h1 { max-width: 720px; margin-bottom: 24px; font-size: clamp(2.8rem, 7vw, 5.8rem
 .policy-callout { padding: 18px 20px; border-left: 3px solid var(--sage); background: var(--surface-soft); }
 .policy-callout p:last-child { margin-bottom: 0; }
 .policy-meta { color: var(--ink-muted); font-size: .88rem; }
+.deletion-content { max-width: 780px; }
+.deletion-content h2 { margin-top: 36px; }
+.deletion-steps { display: grid; gap: 12px; margin: 0; padding-left: 24px; }
+.deletion-steps li { padding-left: 6px; color: var(--ink-soft); }
+.deletion-path { display: inline-block; margin: 8px 0 4px; padding: 12px 14px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface-soft); color: var(--ink); font-weight: 600; }
+.deletion-contact { margin-top: 24px; padding: 20px; border: 1px solid var(--line); border-radius: var(--radius-card); background: var(--surface-soft); }
+.deletion-contact p:last-child { margin-bottom: 0; }
 
 html[data-theme="dark"] .phone { background: #1d1d1d; box-shadow: 0 25px 50px rgba(0,0,0,.32); }
 html[data-theme="dark"] .brand img { filter: brightness(0) invert(1); }
