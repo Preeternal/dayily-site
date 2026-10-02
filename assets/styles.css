@@ -263,6 +263,7 @@ h1 { max-width: 720px; margin-bottom: 24px; font-size: clamp(2.8rem, 7vw, 5.8rem
 .policy-meta { color: var(--ink-muted); font-size: .88rem; }
 
 html[data-theme="dark"] .phone { background: #1d1d1d; box-shadow: 0 25px 50px rgba(0,0,0,.32); }
+html[data-theme="dark"] .brand img { filter: brightness(0) invert(1); }
 html[data-theme="dark"] .timer,
 html[data-theme="dark"] .set { background: #242424; }
 html[data-theme="dark"] .set.next { border-color: #3b3b3b; }
@@ -291,6 +292,7 @@ html[data-theme="dark"] .section-dark .number { background: #2a2a2a; color: #9ac
   }
 
   html:not([data-theme="light"]) .phone { background: #1d1d1d; box-shadow: 0 25px 50px rgba(0,0,0,.32); }
+  html:not([data-theme="light"]) .brand img { filter: brightness(0) invert(1); }
   html:not([data-theme="light"]) .timer,
   html:not([data-theme="light"]) .set { background: #242424; }
   html:not([data-theme="light"]) .set.next { border-color: #3b3b3b; }
