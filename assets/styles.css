@@ -146,9 +146,13 @@ h1 { max-width: 720px; margin-bottom: 24px; font-size: clamp(2.8rem, 7vw, 5.8rem
 .store-link:hover { color: var(--ink); }
 .store-link img { width: 22px; height: 22px; object-fit: contain; }
 
-.live-card { position: relative; min-height: 470px; padding: 20px; border-radius: 32px; background: #1c1c1c; box-shadow: var(--shadow); overflow: hidden; }
-.live-card::before { content: ""; position: absolute; width: 280px; height: 280px; right: -100px; top: -110px; border-radius: 50%; background: rgba(102, 128, 110, .34); }
-.live-card::after { content: ""; position: absolute; width: 180px; height: 180px; left: -110px; bottom: -95px; border-radius: 50%; background: rgba(216, 154, 40, .2); }
+.live-card { position: relative; aspect-ratio: 8 / 7; border-radius: 32px; background-color: #1c1c1c; background-image: url("dayily-search-workout.webp"); background-position: 74% center; background-size: cover; box-shadow: var(--shadow); overflow: hidden; }
+.live-card .phone { display: none; }
+html[lang="es"] .live-card { background-image: url("dayily-search-workout-es.webp"); }
+html[lang="pt-BR"] .live-card { background-image: url("dayily-search-workout-pt.webp"); }
+html[lang="fr"] .live-card { background-image: url("dayily-search-workout-fr.webp"); }
+html[lang="ru"] .live-card { background-image: url("dayily-search-workout-ru.webp"); }
+html[lang="zh-CN"] .live-card { background-image: url("dayily-search-workout-zh.webp"); }
 .phone { position: relative; z-index: 1; width: min(100%, 310px); min-height: 428px; margin: 0 auto; padding: 14px; border: 1px solid rgba(255,255,255,.12); border-radius: 28px; background: #f4f7f2; color: var(--ink); box-shadow: 0 25px 50px rgba(0,0,0,.22); }
 .phone-top { display: flex; align-items: center; justify-content: space-between; padding: 5px 7px 18px; color: var(--ink-muted); font-size: .68rem; }
 .live-status { display: inline-flex; align-items: center; gap: 6px; font-size: .72rem; font-weight: 600; }
@@ -321,7 +325,7 @@ html[data-theme="dark"] .section-dark .number { background: #2a2a2a; color: #9ac
   .hero-grid, .health-grid, .gtg-layout, .health-proof, .policy-layout { grid-template-columns: 1fr; }
   .hero { padding-top: 46px; }
   .hero-grid { gap: 46px; }
-  .live-card { min-height: 430px; }
+  .live-card { aspect-ratio: 16 / 10; }
   .health-grid { gap: 42px; }
   .health-proof-copy { max-width: none; }
   .policy-nav { position: static; display: flex; flex-wrap: wrap; gap: 12px 20px; padding-bottom: 22px; border-bottom: 1px solid var(--line); }
@@ -339,7 +343,7 @@ html[data-theme="dark"] .section-dark .number { background: #2a2a2a; color: #9ac
   .hero { padding: 52px 0 70px; }
   h1 { font-size: clamp(2.7rem, 14vw, 4.6rem); }
   .hero-copy { font-size: 1rem; }
-  .live-card { padding: 12px; border-radius: 25px; }
+  .live-card { aspect-ratio: 8 / 7; border-radius: 25px; }
   .phone { min-height: 405px; }
   .section { padding: 72px 0; }
   .section-head { margin-bottom: 30px; }
