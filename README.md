@@ -11,4 +11,4 @@ Static public website for Dayily, intended for GitHub Pages.
 
 The site uses no bundler, framework, external fonts, trackers, or backend.
 All links are designed for GitHub Project Pages at
-`https://preeternal.github.io/dayily-site/`.
+[Dayily website](https://preeternal.github.io/dayily-site/)
